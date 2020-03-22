@@ -15,7 +15,7 @@ import Homepage from "./Components/Homepage";
 const store = createStore(reducer);
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAvp8YOxiSQVq9B6mE3Y-ImQdr0An3-caA",
+  apiKey: "",
   authDomain: "gift-tracker-7a748.firebaseapp.com",
   databaseURL: "https://gift-tracker-7a748.firebaseio.com",
   storageBucket: "gs://gift-tracker-7a748.appspot.com"
