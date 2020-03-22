@@ -7,6 +7,7 @@ import { createStore } from "redux";
 import { Provider } from "react-redux";
 import { reducer } from "./Components/Redux/reducers";
 import firebase from "firebase";
+import { API_KEY } from "react-native-dotenv";
 
 import GiftAdder from "./Components/GiftAdder";
 import Login from "./Components/Login/index";
@@ -15,7 +16,7 @@ import Homepage from "./Components/Homepage";
 const store = createStore(reducer);
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAvp8YOxiSQVq9B6mE3Y-ImQdr0An3-caA",
+  apiKey: API_KEY,
   authDomain: "gift-tracker-7a748.firebaseapp.com",
   databaseURL: "https://gift-tracker-7a748.firebaseio.com",
   storageBucket: "gs://gift-tracker-7a748.appspot.com"
